@@ -231,7 +231,7 @@ form.reset()
 .catch(()=>{
 
 document.getElementById("form-message").innerText =
-"Failed to send message🤣🤣😂😂. Please try again"
+"Failed to send message. Please try again"
 
 })
 
@@ -266,10 +266,13 @@ loader.style.display = "none"
 
 // particles //
 const canvas = document.getElementById("particles");
+
+if(canvas){
 const ctx = canvas.getContext("2d");
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+}
 
 let particlesArray = [];
 
