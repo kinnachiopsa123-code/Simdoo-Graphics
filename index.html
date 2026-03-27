@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="description" content="SIMDOO GRAPHIX is a luxury graphics design studio specializing in posters, branding, and creative visual design.">
+        <meta name="description" content="SIMDOO GRAPHIX is a luxury graphics design studio specializing in posters, branding, and creative visual design.">
 
         <meta name="keywords" content="graphic design, poster design, branding, design studio, creative design">
 
@@ -12,12 +12,12 @@
 
         <meta property="og:title" content="SIMDOO Graphix Studio">
         <meta property="og:description" content="Luxury graphics design and branding studio">
-    <title>SIMDOO | Luxury Graphix Design</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+        <title>SIMDOO | Luxury Graphix Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -48,6 +48,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#works">Our Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -348,7 +349,7 @@
 
         </section>
 
-        <section class="pricing reveal">
+        <section id="pricing" class="pricing reveal">
 
         <h2 class="section-title">Design Packages</h2>
 
@@ -392,13 +393,18 @@
             <h2>Contact Us</h2>
 
             <form id="contact-form">
-                <input type="text" name="user_name" placeholder="Your Name" required>
-                <input type="email" name="user_email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
 
-            <p id="form-message"></p>
+                <input type="text" name="user-name" placeholder="Your Name" required>
+
+                <input type="email" name="user-email" placeholder="Your Email" required>
+
+                <textarea name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+                <p id="form-message"></p>
+
+            </form>
         </section>
 
         <footer>
@@ -425,8 +431,8 @@
         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-        <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
-        <script src="scripts.js"></script>
+        <script src="https://unpkg.com/@studio-freight/lenis@1.0.27/dist/lenis.min.js"></script>
+        <script src="scripts.js" defer></script>
 
     </body>
 </html>
