@@ -204,17 +204,17 @@ document.addEventListener("DOMContentLoaded", () => {
   // =========================
   // PAGE LOADER
   // =========================
-  window.addEventListener("load", () => {
-    const loader = document.getElementById("loader");
-    if (!loader) return;
+  //window.addEventListener("load", () => {
+  //  const loader = document.getElementById("loader");
+  //  if (!loader) return;
 
-    setTimeout(() => {
-      loader.style.opacity = "0";
-      setTimeout(() => {
-        loader.style.display = "none";
-      }, 400);
-    }, 600);
-  });
+  //  setTimeout(() => {
+  //    loader.style.opacity = "0";
+  //    setTimeout(() => {
+  //      loader.style.display = "none";
+  //    }, 400);
+  //  }, 600);
+//  });
 
   // =========================
   // PARTICLES
